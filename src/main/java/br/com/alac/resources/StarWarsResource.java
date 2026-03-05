@@ -1,5 +1,6 @@
-package br.com.alac;
+package br.com.alac.resources;
 
+import br.com.alac.services.StarWarsService;
 import jakarta.ws.rs.Consumes;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;

@@ -1,4 +1,4 @@
-package br.com.alac;
+package br.com.alac.resources;
 
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;

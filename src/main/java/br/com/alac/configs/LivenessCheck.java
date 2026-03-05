@@ -1,4 +1,4 @@
-package br.com.alac;
+package br.com.alac.configs;
 
 import org.eclipse.microprofile.health.HealthCheck;
 import org.eclipse.microprofile.health.HealthCheckResponse;
