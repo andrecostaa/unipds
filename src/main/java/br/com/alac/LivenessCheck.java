@@ -1,4 +1,13 @@
 package br.com.alac;
 
-public class LivenessCheck {
+import org.eclipse.microprofile.health.HealthCheck;
+import org.eclipse.microprofile.health.HealthCheckResponse;
+import org.eclipse.microprofile.health.Liveness;
+
+@Liveness
+public class LivenessCheck implements HealthCheck {
+    @Override
+    public HealthCheckResponse call() {
+        return HealthCheckResponse.up("Liveness Check!");
+    }
 }
